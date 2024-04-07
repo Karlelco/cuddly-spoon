@@ -11,12 +11,7 @@ import {
   BiLogoYoutube,
 } from "react-icons/bi";
 
-const caveat = Caveat({
-  subsets: ["latin"],
-  weight: ["700"],
-  display: "swap",
-  variable: "--font-caveat",
-});
+
 
 
 
@@ -36,7 +31,7 @@ function Footer() {
         </Button>
       </div>
       <div className="flex flex-col md:flex-row justify-between px-3 md:px-14 items-center">
-        <h1 className={caveat.className}>
+        <h1 >
           <span className="text-2xl ">Colins Chege</span>
         </h1>
         <div className="gap-3 space-x-2 *:text-xl ">

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function Mome() {
   return (
-    <section className="flex mt-10 px-10 min-h-screen flex-col  bg-slate-300 items-center justify-between">
+    <section className="flex mt-10  min-h-screen flex-col w-full  bg-slate-300 items-center justify-between">
       <p className="text-2xl md:text-6xl text-center font-bold text-black font-mono">
         Creating the Future with Mechatronics Engineering
       </p>
@@ -26,7 +26,7 @@ function Mome() {
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85 }}
-          className=" mt-10 h-full flex flex-col w-full md:w-1/2  m-auto "
+          className=" mt-10 h-full flex flex-col  md:w-1/2  m-auto "
         >
           <p className="text-xl md:text-4xl left-0 text-center font-bold text-black font-mono">
             Building the Future with Mechatronics Engineering

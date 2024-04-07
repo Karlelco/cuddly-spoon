@@ -16,7 +16,7 @@ function Skill() {
   return (
     <section className="flex min-h-screen flex-col  bg-blue-100 items-center justify-between">
       <div className="flex flex-col md:flex-row md:h-[20rem] items-center justify-center">
-        <p className="text-5xl w-full md:w-1/2 text-center font-extrabold text-black font-mono">
+        <p className="text-5xl md:w-1/2 text-center font-extrabold text-black font-mono">
           Expertise and Skills
         </p>
         <p className="md:w-1/2 px-10 text-gray-700 md:pr-20">
@@ -84,7 +84,7 @@ function Skill() {
           </div>
         </motion.div>
       </div>
-      <div className="flex flex-col text-gray-800 md:flex-row md:h-[20rem] w-full items-center justify-center ">
+      <div className="flex flex-col text-gray-800 md:flex-row md:h-[20rem]  items-center justify-center ">
         <div className="flex flex-col gap-8 text-left  md:w-1/2">
           <p className="font-bold text-xl md:text-4xl">
             Mechatronics Engineering

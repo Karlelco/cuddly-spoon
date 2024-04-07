@@ -11,11 +11,11 @@ function Carousel() {
     <main className="bg-slate-200 mb-6 px-6 py-12">
       <section className=" md:mt-10 md:px-10 md:py-20">
         <div className="px-4 md:px-24 m-auto">
-          <div className="flex flex-col w-full gap-4 m-auto md:flex-row items-center justify-center px-2 ">
+          <div className="flex flex-col  gap-4 m-auto md:flex-row items-center justify-center px-2 ">
             <p className="md:w-1/2 text-2xl md:text-5xl ">
               Innovative Mechatronics Engineering Solutions
             </p>
-            <p className="w-full md:w-1/2">
+            <p className=" md:w-1/2">
               I have worked on several projects, including designing and
               implementing control systems for industrial automation, developing
               custom robotics solutions, and providing technical support to
@@ -25,7 +25,7 @@ function Carousel() {
           </div>
         </div>
         <div className="mt-20">
-          <div className="carousel  carousel-center w-full p-4 space-x-4 bg-sky-200 rounded-box">
+          <div className="carousel  carousel-center  p-4 space-x-4 bg-sky-200 rounded-box">
             <div className="carousel-item">
               <img
                 src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
@@ -71,8 +71,8 @@ function Carousel() {
           </div>
         </div>
       </section>
-      <section className="bg-sky-100 flex flex-col   md:flex-row justify-center items-center  w-full  min-h-screen">
-        <div className=" w-full items-center justify-center px-2  md:max-w-1/2 ">
+      <section className="bg-sky-100 flex flex-col   md:flex-row justify-center items-center   min-h-screen">
+        <div className="w-full items-center justify-center px-2  md:max-w-1/2 ">
           <motion.div
               initial={{ opacity: 0, x: 100 , y: 100}}
               whileInView={{ opacity: 1, x: 0 , y:0 }}

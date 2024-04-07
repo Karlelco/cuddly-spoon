@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function Header() {
   return (
-    <div className="navbar">
+    <div className="navbar w-full">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ function Header() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-6 gap-4 text-lg border rounded-full min-w-1/2">
           <Link href="" className="border px-3  py-1 rounded-full">
-            Hi
+            Hi 
           </Link>
           <Link href="" className="border px-3  py-1 rounded-full">
             About

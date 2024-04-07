@@ -49,7 +49,7 @@ function Project() {
             automation, among other areas.
           </CardContent>
           <CardFooter>
-            <Button variant="link" className="w-full justify-start">
+            <Button variant="link" className=" justify-start">
               <CheckIcon className="mr-2 h-4 w-4" /> Read more
             </Button>
           </CardFooter>
@@ -70,7 +70,7 @@ function Project() {
             SCADA systems.
           </CardContent>
           <CardFooter>
-            <Button variant="link" className="w-full justify-start">
+            <Button variant="link" className=" justify-start">
               <CheckIcon className="mr-2 h-4 w-4" /> Read more
             </Button>
           </CardFooter>
@@ -90,7 +90,7 @@ function Project() {
             support to ensure successful project outcomes.
           </CardContent>
           <CardFooter>
-            <Button variant="link" className="w-full justify-start">
+            <Button variant="link" className=" justify-start">
               <CheckIcon className="mr-2 h-4 w-4" /> Read more
             </Button>
           </CardFooter>
@@ -110,7 +110,7 @@ function Project() {
             to ensure seamless and efficient operation of systems.
           </CardContent>
           <CardFooter>
-            <Button variant="link" className="w-full justify-start">
+            <Button variant="link" className=" justify-start">
               <CheckIcon className="mr-2 h-4 w-4" /> Read more
             </Button>
           </CardFooter>
