@@ -19,7 +19,7 @@ function Skill() {
         <p className="text-5xl w-full md:w-1/2 text-center font-extrabold text-black font-mono">
           Expertise and Skills
         </p>
-        <p className="md:w-1/2 px-10 text-gray-700 pr-20">
+        <p className="md:w-1/2 px-10 text-gray-700 md:pr-20">
           As a Mechatronics Engineer, I bring a unique skill set that combines
           mechanical, electrical, and computer engineering. With strong
           leadership and communication skills, I can provide project management,
